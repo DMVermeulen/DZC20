@@ -8,12 +8,14 @@ public class ObjectController : MonoBehaviour, IPointerClickHandler, IPointerEnt
     [Tooltip("The object responsible for switching scenes.")]
     [SerializeField] private SceneSwitcher sceneSwitcher;
 
-    [Tooltip("The build index of the scene to load when clicked.")]
+    [Tooltip("The build index of the scene to load when clicked, use 0 to ignore switch.")]
     [SerializeField] private int sceneNumber = 0;
 
     [Tooltip("The colour to use when highlighting this object.")]
-    [SerializeField] private Color colour;
+    [SerializeField] private Color colourHighlight = new Color(1, 1, 0, .8f);
 
+    [Tooltip("The base colour of this object.")]
+    [SerializeField] private Color colourBase = Color.clear;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -21,7 +23,6 @@ public class ObjectController : MonoBehaviour, IPointerClickHandler, IPointerEnt
         if (sceneNumber != 0)
         {
             sceneSwitcher.Load(sceneNumber);
-
         }
         
         Debug.Log("Clicked on " + name + " GameObject");
@@ -30,26 +31,14 @@ public class ObjectController : MonoBehaviour, IPointerClickHandler, IPointerEnt
     // Change colour to yellow-ish when hovering over object
     public void OnPointerEnter(PointerEventData eventData)
     {
-        GetComponent<Renderer>().material.color = colour;
+        GetComponent<Renderer>().material.color = colourHighlight;
         Debug.Log("Cursor entering " + name + " GameObject");
     }
 
     // Return colour to basic state
     public void OnPointerExit(PointerEventData eventData)
     {
-        GetComponent<Renderer>().material.color = Color.clear;
+        GetComponent<Renderer>().material.color = colourBase;
         Debug.Log("Cursor exiting " + name + " GameObject");
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-           
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
