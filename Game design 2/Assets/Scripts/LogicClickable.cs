@@ -19,15 +19,34 @@ public class LogicClickable : MonoBehaviour, IPointerClickHandler, IPointerEnter
     {
         // Retrieve text child
         text = GetComponentInChildren<TextMesh>();
+
+        // Set text to initial state
+        text.text = "?";
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        // Loop through the possible states
-        state++;
+        if (eventData.button == PointerEventData.InputButton.Left)
+        {
+            // Loop through the possible states
+            state++;
 
-        // Wraparound
-        if (state > 1) state = -1;
+            // Wraparound
+            if (state > 1) state = -1;
+        } 
+        else if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            // Loop through the possible states
+            state--;
+
+            // Wraparound
+            if (state < -1) state = 1;
+        } 
+        else
+        {
+            // Middle mouse button, ignore that shit
+            return;
+        }
 
         // Set text to new state
         text.text = (state >= 0) ? $"{state}" : "?";
