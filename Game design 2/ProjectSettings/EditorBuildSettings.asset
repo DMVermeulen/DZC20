@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/010_Audi5.unity
     guid: fb60451a8f0cdd64ea9b1ef8ef841a8d
+  - enabled: 1
+    path: Assets/Scenes/Safe/001_SafeSceneStart.unity
+    guid: 0bbd0f59198d2cb47a742136b0cce955
+  - enabled: 1
+    path: Assets/Scenes/Safe/002_SafeScenePuzzle.unity
+    guid: 5def0cd22fe795641a2f6c1e9e8a5ef2
+  - enabled: 1
+    path: Assets/Scenes/Safe/003_SafeSceneCaesar.unity
+    guid: 6eeab2b1c0f11834184c0ff26cef6d31
   m_configObjects: {}
