@@ -14,7 +14,7 @@ public class Submit : MonoBehaviour
 
     public void SubmitPuzzle() {
         bool correct = Correct();
-        result.text = "Input: " + inputField.text + ", key: " + key.text + " encrypted: " + encryptedMessage.text + " solution: " + message.text + " correct:"+correct;
+        result.text = correct ? "Correct. You have opened the safe!" : "Incorrect. Try again.";
         if (correct) {
             result.color = Color.green;
         }

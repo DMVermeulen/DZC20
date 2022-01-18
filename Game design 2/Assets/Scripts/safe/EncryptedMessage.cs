@@ -12,10 +12,10 @@ public class EncryptedMessage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("started encrypted message");
-        print(key.text);
-        print(message.text);
-        print(CaesarShiftString(message.text, int.Parse(key.text)));
+        //print("started encrypted message");
+        //print(key.text);
+        //print(message.text);
+        //print(CaesarShiftString(message.text, int.Parse(key.text)));
         encryptedMessage.text = CaesarShiftString(message.text, int.Parse(key.text));
     }
 
