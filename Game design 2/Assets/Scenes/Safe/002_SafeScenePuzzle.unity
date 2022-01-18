@@ -672,6 +672,7 @@ MonoBehaviour:
   message: {fileID: 1707661240}
   encryptedMessage: {fileID: 1375203352}
   inputField: {fileID: 553015744}
+  SceneSwitcher: {fileID: 977953090}
 --- !u!1 &438852962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,8 +1548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d352316873573d4cb94a3aff6daa318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: {fileID: 287735519}
-  showKey: {fileID: 1041261569}
 --- !u!1 &1151441971
 GameObject:
   m_ObjectHideFlags: 0

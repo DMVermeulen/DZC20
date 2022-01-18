@@ -11,12 +11,17 @@ public class Submit : MonoBehaviour
     public Text message;
     public Text encryptedMessage;
     public InputField inputField;
+    public SceneSwitcher SceneSwitcher;
 
     public void SubmitPuzzle() {
         bool correct = Correct();
-        result.text = correct ? "Correct. You have opened the safe!" : "Incorrect. Try again.";
+
         if (correct) {
-            result.color = Color.green;
+            //result.color = Color.green;
+            SceneSwitcher.Load(8);
+        } else {
+            //TODO flicker red screeen
+            result.text = "Incorrect. Try again.";
         }
     }
 
