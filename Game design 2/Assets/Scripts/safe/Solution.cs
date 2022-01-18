@@ -12,7 +12,6 @@ public class Solution : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("hallo???");
         solution.text = string.Format("solution: {0} (key:{1})", message.text, key.text);
     }
 

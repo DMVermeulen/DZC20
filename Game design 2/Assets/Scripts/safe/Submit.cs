@@ -12,6 +12,7 @@ public class Submit : MonoBehaviour
     public Text encryptedMessage;
     public InputField inputField;
     public SceneSwitcher SceneSwitcher;
+    public Button submit;
 
     public void SubmitPuzzle() {
         bool correct = Correct();
