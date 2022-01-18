@@ -23,6 +23,7 @@ public class Submit : MonoBehaviour
         } else {
             //TODO flicker red screeen
             result.text = "Incorrect. Try again.";
+            //submit.color = Color.red; doesnt work
         }
     }
 
