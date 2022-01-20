@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 388195510}
   - component: {fileID: 388195509}
   m_Layer: 5
-  m_Name: Button
+  m_Name: GoBackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
