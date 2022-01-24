@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/StartScene.unity
+    guid: 79dca4e8ae2e78c46ab04bd0a23dc746
   - enabled: 1
     path: Assets/Scenes/000_Audi7/000_Audi7.unity
     guid: e14ae0fec4807714bb3559fa7332c41f
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/000_Audi7/002_Audi7_Laptop.unity
     guid: 92c5f091275253a4a8bf742aef130256
+  - enabled: 1
+    path: Assets/Scenes/000_Audi7/002_Audi7_Laptop_Full.unity
+    guid: b562d82fbdae1b14d84584102745db08
   - enabled: 1
     path: Assets/Scenes/010_Audi5/010_Audi5.unity
     guid: fb60451a8f0cdd64ea9b1ef8ef841a8d
