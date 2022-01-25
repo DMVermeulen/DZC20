@@ -1695,7 +1695,7 @@ TextMesh:
   m_GameObject: {fileID: 512192646}
   m_Text: 'Count the number
 
-    of True yellows'
+    of True yellows in exercise 1'
   m_OffsetZ: 0
   m_CharacterSize: 0.001
   m_LineSpacing: 1
