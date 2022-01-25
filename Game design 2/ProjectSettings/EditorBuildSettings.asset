@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AtlasScene.unity
     guid: 3217630550f5b244991902da1520172e
+  - enabled: 1
+    path: Assets/Scenes/010_Audi5/CaesarScene.unity
+    guid: 2acace9be4bfd104eb0e350571b070cc
   m_configObjects: {}
