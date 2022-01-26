@@ -820,7 +820,7 @@ MonoBehaviour:
   sceneSwitcher: {fileID: 1678767997}
   sceneNumber: 12
   colourHighlight: {r: 1, g: 1, b: 0, a: 0.8}
-  colourBase: {r: 1, g: 1, b: 1, a: 0}
+  colourBase: {r: 0, g: 0, b: 0, a: 0}
 --- !u!64 &1893550451
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -184,7 +184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &42483456
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -522,8 +522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneSwitcher: {fileID: 9483329}
   sceneNumber: 13
-  colourHighlight: {r: 1, g: 1, b: 0, a: 0.8}
-  colourBase: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0}
+  colourHighlight: {r: 1, g: 1, b: 0, a: 1}
+  colourBase: {r: 1, g: 1, b: 1, a: 1}
 --- !u!64 &438150031
 MeshCollider:
   m_ObjectHideFlags: 0
