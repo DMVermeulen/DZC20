@@ -697,12 +697,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Unlock the safe in Metaforum using the key obtained from the puzzle on
-    the blackboard!
+  m_text: 'Unlock the safe in Metaforum using the number obtained from the puzzle
+    on the blackboard!
 
 
-    Information on what the key is for can be found in Audi
-    5.'
+    Information on what this number is for can be found
+    in Audi 5.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1420,7 +1420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260.85, y: 20.9878}
+  m_AnchoredPosition: {x: 276.8, y: 20.9878}
   m_SizeDelta: {x: 232.191, y: -671.2993}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1845663336
